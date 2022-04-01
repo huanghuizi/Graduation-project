@@ -1,0 +1,18 @@
+/*单行显示隐藏多余文本*/
+.oneline{
+  overflow: hidden; /*超出的文本隐藏*/
+  text-overflow: ellipsis; /*溢出用省略号显示*/
+  white-space: nowrap; /*溢出不换行*/
+}
+/*多行显示隐藏多余文本*/
+.mutiline{
+  word-break:break-all;
+	display:-webkit-box;
+	-webkit-line-clamp:2;/*指定显示行数*/
+	-webkit-box-orient:vertical;
+	overflow:hidden;
+}
+
+.height{
+  height: 100vh-();/*减去已知的高度*/
+}
